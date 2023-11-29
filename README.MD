@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Index.py is a script for batch-processing images using Tesseract and Dramatiq. It is designed to process image files in a given source directory, supporting JPEG, JPG, TIF, and TIFF files. The script uses the Tesseract OCR engine to process the images and saves the processed images in a target directory. The tasks are sent to Dramatiq workers in batches, and the script monitors system resources based on CPU usage.
+TessDrama is a script for batch-processing images using Tesseract and Dramatiq. It is designed to process image files in a given source directory, supporting JPEG, JPG, TIF, and TIFF files. The script uses the Tesseract OCR engine to process the images and saves the processed images in a target directory. The tasks are sent to Dramatiq workers in batches, and the script monitors system resources based on CPU usage.
 
 ## Use Cases
 
